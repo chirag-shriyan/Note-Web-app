@@ -1,0 +1,75 @@
+/* Other Devices */
+
+@media screen and (max-width:1370px) {
+    
+    /* Nvabar  */
+
+.navbar h1{
+    margin: 0px 15px;
+    font-size: 30px;
+}
+
+.search-box{
+    margin: 0px 5px;
+}
+
+    /* Main Container */
+
+.content-box{
+    width: 80vw;
+}
+
+.cards-container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
+
+
+    /* Other Devices */
+
+
+@media screen and (max-width:1040px) {
+
+.cards-container{
+    grid-template-columns: 1fr 1fr ;
+}
+
+}
+
+
+/* Mobile Devices */
+
+
+@media screen and (max-width:700px) {
+    
+    /* Nvabar  */
+
+.navbar h1{
+    margin: 0px 15px;
+    font-size: 25px;
+}
+
+.search-box{
+    margin: 0px 5px;
+}
+
+    /* Main Container */
+
+.content-box{
+    width: 90vw;
+}
+
+.content-box h1{
+    font-size: 30px;
+}
+
+.cards-container{
+    grid-template-columns: 1fr;
+}
+
+.cards{
+    margin: 20px auto;
+}
+
+}
